@@ -19,8 +19,6 @@
 
 #include <time.h>
 
-#include <nf_lib.h>
-
 //some code for profiling
 //---------------------------------------------------------------------------------
 u16 startTimer(int timer) {
@@ -243,35 +241,6 @@ levitate.rate    = 1024;     // playback rate, 1024 = original sound
 levitate.handle  = 0;           // 0 = allocate new handle
 levitate.volume  = 255;         // 200/255 volume level
 levitate.panning = 128;         // centered panning
-
-
-
-	switch (NF_GetLanguage()) {
-		case 0 : // Japanese
-			language=0;
-			break;
-		case 1 : // English
-			language=1;
-			break;
-		case 2 : // French
-			language=2;
-			break;
-		case 3 : // German
-			language=3;
-			break;
-		case 4 : // Italian
-			language=4;
-			break;
-		case 5 : // Spanish
-			language=5;
-			break;
-		case 6 : // Chinese
-			language=6;
-			break;
-		default:
-			language=0;
-			break;
-	}
 
 	touchPosition touchXY;
 
