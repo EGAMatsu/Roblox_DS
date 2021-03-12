@@ -1,0 +1,7 @@
+Error Code Ref:
+
+0000 = Fat failed
+
+0001 = NitroFS failed
+
+0002 = Both fat and NitroFS failed
