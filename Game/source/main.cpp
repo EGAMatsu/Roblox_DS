@@ -217,7 +217,7 @@ if (!fatInited) {
 	mmInitDefaultMem((mm_addr)soundbank_bin);
 	//mmInitDefault( "soundbank.bin" );
 	
-	mmLoad( MOD_BZPIF );
+	//mmLoad( MOD_BZPIF );
 	//mmStart( MOD_BZPIF, MM_PLAY_LOOP );
 
 mmLoadEffect(SFX_BUTTON);
