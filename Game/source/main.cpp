@@ -221,6 +221,8 @@ if (!fatInited) {
 mmLoadEffect(SFX_BUTTON);
 mmLoadEffect(SFX_SWITCH3);
 
+mmLoadEffect(SFX_UUHHH);
+
 mm_sound_effect sound;
 sound.id      = SFX_BUTTON; // sample ID (make sure it is loaded)
 sound.rate    = 1024;     // playback rate, 1024 = original sound
